@@ -9,24 +9,24 @@ body{
 
 .userCard{
     width: 100%;
-    height: 400px;
-    min-width: 220px;
+    height: 500px;
+    min-width: 250px;
     max-width: 400px;
-    background: silver;
+    background: white;
     margin: 20px;
-    color: rebeccapurple;
+    color: black;
     overflow: hidden;
     border: 10px;
     text-align: center;
     font-size: 16px;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .userImageContainer{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
-    border: 5px solid white;
+    border: 10px solid rgb(228, 221, 221);
     border-radius: 50%;
 }
 
@@ -40,38 +40,87 @@ body{
     padding: 20px;
 }
 
+.userStatContainer{
+    background-color:darkslategrey;
+    position: absolute;
+    margin: 0;
+    width: 400px;
+    height: 60px;
+    border-radius:0 0 10px 10px;
+}
+
 .userStatItem{
     display: inline-block;
-    background-color: rgb(196, 156, 235);
     color: black;
-    border: 2px solid blueviolet;
+    width: 100px;
+    text-align: center;
 }
 
 .userCard > *{
     display:block;
-    vertical-align:top;
     margin-top: 20px;
 }
 
-.inst,
-.fb,
-.tel{
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .userFullName{
-    font-weight: bold;
-    font-size: 1.5em;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 
-.userLink{
-    font-size: 1.3em;
+.userInfo{
+    font-size: 1em;
     font-style: italic;
+    padding: 10px;
+}
+
+.button{
+    color: white;
+    font-size: 30px;
+    background-color: lightskyblue;
+    width: 150px;
+    height: 50px;
+    border:2px solid lightsteelblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -15px;
 }
 
 .statName{
-    font-weight: bold;
-    font-style: ;
+    font-weight: normal;
+    color: tomato;
+    position: relative;
+    top: 10px;
+}
+
+.statValue{
+    font-weight: normal;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.post{
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+
+.favorites{
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.messages{
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    border-left: 2px solid grey;
+        padding-left: 10px;
+
 }
